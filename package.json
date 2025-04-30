@@ -1,0 +1,47 @@
+{
+  "name": "pdfex",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://pdfox-j.github.io/pdfex",
+  "dependencies": {
+    "docx": "^9.4.1",
+    "emailjs-com": "^3.2.0",
+    "file-saver": "^2.0.5",
+    "pdfjs-dist": "^5.1.91",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-pdf": "^7.0.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9.8.8",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.5.3",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

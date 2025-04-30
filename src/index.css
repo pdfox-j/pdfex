@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+
+body { 
+  font-family: 'Inter', sans-serif; 
+  @apply bg-gradient-to-br from-gray-100 to-white text-gray-800; 
+}
+
+button { 
+  @apply transition duration-200 ease-in-out; 
+}
+
+a { 
+  @apply text-blue-600 hover:underline; 
+}
+
+input[type="file"] { 
+  @apply block mt-2 mb-4; 
+}
