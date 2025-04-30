@@ -2,8 +2,7 @@
   "name": "pdfex",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://pdfox-j.github.io/pdfex",
-  "dependencies": {
+    "dependencies": {
     "docx": "^9.4.1",
     "emailjs-com": "^3.2.0",
     "file-saver": "^2.0.5",
