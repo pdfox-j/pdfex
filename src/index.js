@@ -1,11 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Cambia a 'react-dom/client'
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import './index.css';
-import App from './App';
+import LandingPage from './LandingPage';
+import PdfReader from './PdfReader';
+import LoginRegister from './LoginRegister';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/lector" element={<PdfReader />} />
+        <Route path="/login" element={<LoginRegister />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
